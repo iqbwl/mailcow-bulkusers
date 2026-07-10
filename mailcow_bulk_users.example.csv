@@ -1,0 +1,4 @@
+local_part,domain,name,password,quota
+user0001,example.com,User 0001,Abcd1234!xZ,1024
+user0002,example.com,User 0002,Pqrs5678@Wy,1024
+user0003,example.com,User 0003,Lmno9012#Vb,1024

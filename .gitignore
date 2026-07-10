@@ -1,0 +1,22 @@
+# venv (Python virtual environment)
+.venv/
+venv/
+__pycache__/
+
+# Secrets & environment config (NEVER commit)
+.env
+*.env
+
+# Real user data (contains plaintext passwords)
+mailcow_bulk_users.csv
+list*.csv
+*.csv
+!mailcow_bulk_users.example.csv
+
+# Generated logs
+created.log
+failed.log
+
+# Editor / OS junk
+*.swp
+.DS_Store
