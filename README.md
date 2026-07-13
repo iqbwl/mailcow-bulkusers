@@ -13,14 +13,16 @@ Bulk-create mailboxes in Mailcow via the REST API from a CSV file.
 ## Setup
 
 ```bash
-cd /home/zecter/.agent/projects/mailcow/bulkuser
+# 1. Clone the repository
+git clone git@github.com:iqbwl/mailcow-bulkusers.git
+cd mailcow-bulkusers
 
-# 1. Create & activate venv (uv is preferred; pip works too)
+# 2. Create & activate venv (uv is preferred; pip works too)
 uv venv .venv && source .venv/bin/activate
 uv pip install -r requirements.txt
 # or: python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
 
-# 2. Configure .env (copy from example, fill in real values)
+# 3. Configure .env (copy from example, fill in real values)
 cp .env.example .env
 nano .env
 ```
